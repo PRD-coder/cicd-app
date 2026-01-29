@@ -2,7 +2,7 @@ pipeline {
     agent any
 
     environment {
-        DOCKER_IMAGE = "prd-coder/cicd-app"
+        DOCKER_IMAGE = "149209/cicd-app"
     }
 
     stages {
